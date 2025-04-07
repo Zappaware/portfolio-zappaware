@@ -1,10 +1,14 @@
 import Image from "next/image";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import Hero from "@/components/Hero";
 
 export default function Services() {
 	return (
-		<div className="flex bg-neutral-800">
+		<>
 			<Header />
-		</div>
+			<Hero />
+			<Footer />
+		</>
 	);
 }
