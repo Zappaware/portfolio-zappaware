@@ -180,7 +180,7 @@ export default function Header() {
 
 				{/* Modal */}
 				{isModalOpen && (
-					<div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+					<div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50 bg-[url(/tron.jpg)]">
 						<div className="bg-white p-6 rounded shadow-lg">
 							<h2 className="text-xl font-bold mb-4">Consulta gratis</h2>
 							<p>¡Contáctanos para una consulta gratuita!</p>

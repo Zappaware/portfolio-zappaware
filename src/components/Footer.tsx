@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Linkedin } from "lucide-react";
+import { X, Github, Linkedin } from "lucide-react";
 
 export default function Footer() {
 	return (
@@ -29,35 +29,45 @@ export default function Footer() {
 						</h3>
 						<ul className="space-y-2">
 							<li>
-								<a
-									href="/servicios"
-									className="text-sm sm:text-base hover:underline"
-								>
-									Servicios
+								<a href="/" className="text-sm sm:text-base hover:underline">
+									Home
 								</a>
 							</li>
 							<li>
 								<a
-									href="/valores"
+									href="/about"
 									className="text-sm sm:text-base hover:underline"
 								>
-									Valores
+									About
 								</a>
 							</li>
 							<li>
 								<a
-									href="/acerca"
+									href="/blog"
 									className="text-sm sm:text-base hover:underline"
 								>
-									Acerca de Nosotros
+									Blog
 								</a>
 							</li>
 							<li>
 								<a
-									href="/contactanos"
+									href="/portfolio"
 									className="text-sm sm:text-base hover:underline"
 								>
-									Contáctanos
+									Portfolio
+								</a>
+							</li>
+							<li>
+								<a
+									href="/services"
+									className="text-sm sm:text-base hover:underline"
+								>
+									Services
+								</a>
+							</li>
+							<li>
+								<a href="/faq" className="text-sm sm:text-base hover:underline">
+									FAQ
 								</a>
 							</li>
 						</ul>
@@ -70,17 +80,25 @@ export default function Footer() {
 						</h3>
 						<div className="flex justify-center sm:justify-start space-x-6">
 							<a
-								href="https://www.facebook.com/profile.php?id=100095020308411"
+								href="https://x.com/zappa32"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="hover:opacity-80 transition-opacity"
 							>
-								<Facebook className="w-6 h-6" />
+								<X className="w-6 h-6" />
 							</a>
-							<a href="#" className="hover:opacity-80 transition-opacity">
-								<Instagram className="w-6 h-6" />
+							<a
+								href="https://www.github.com/Zappaware"
+								className="hover:opacity-80 transition-opacity"
+							>
+								<Github className="w-6 h-6" />
 							</a>
-							<a href="#" className="hover:opacity-80 transition-opacity">
+							<a
+								href="https://www.linkedin.com/in/sergio-cerv-rod"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="hover:opacity-80 transition-opacity"
+							>
 								<Linkedin className="w-6 h-6" />
 							</a>
 						</div>
