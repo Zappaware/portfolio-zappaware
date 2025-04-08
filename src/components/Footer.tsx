@@ -9,16 +9,16 @@ export default function Footer() {
 					{/* Contact Info */}
 					<div className="text-center sm:text-left">
 						<h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4">
-							Contáctanos
+							Contact me
 						</h3>
 						<p className="mb-2 text-sm sm:text-base">
 							Email: sergio.cerv.rod@gmail.com
 						</p>
 						<p className="mb-2 text-sm sm:text-base">
-							Teléfono: +52-312-298-5851
+							Telephone: +52-312-298-5851
 						</p>
 						<p className="text-sm sm:text-base">
-							Dirección: Río salado # 476, Col. Placetas Estadio. Colima,
+							Address: Río salado # 476, Col. Placetas Estadio. Colima,
 							México.
 						</p>
 					</div>
@@ -26,7 +26,7 @@ export default function Footer() {
 					{/* Quick Links */}
 					<div className="text-center sm:text-left">
 						<h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4">
-							Enlaces Rápidos
+							Quick links
 						</h3>
 						<ul className="space-y-2">
 							<li>
@@ -80,7 +80,7 @@ export default function Footer() {
 					{/* Social Media */}
 					<div className="text-center sm:text-left">
 						<h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4">
-							Síguenos
+							Follow me
 						</h3>
 						<div className="flex justify-center sm:justify-start space-x-6">
 							<Link
@@ -111,8 +111,7 @@ export default function Footer() {
 
 				<div className="border-t border-white/20 mt-6 sm:mt-8 pt-6 sm:pt-8 text-center">
 					<p className="text-sm sm:text-base">
-						&copy; {new Date().getFullYear()} Vantes-Web. Todos los derechos
-						reservados.
+						&copy; {new Date().getFullYear()} Vantes-Web. All rights reserved.
 					</p>
 				</div>
 			</div>
