@@ -1,4 +1,5 @@
 import { X, Github, Linkedin } from "lucide-react";
+import Link from "next/link";
 
 export default function Footer() {
 	return (
@@ -29,46 +30,49 @@ export default function Footer() {
 						</h3>
 						<ul className="space-y-2">
 							<li>
-								<a href="/" className="text-sm sm:text-base hover:underline">
+								<Link href="/" className="text-sm sm:text-base hover:underline">
 									Home
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a
+								<Link
 									href="/about"
 									className="text-sm sm:text-base hover:underline"
 								>
 									About
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a
+								<Link
 									href="/blog"
 									className="text-sm sm:text-base hover:underline"
 								>
 									Blog
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a
+								<Link
 									href="/portfolio"
 									className="text-sm sm:text-base hover:underline"
 								>
 									Portfolio
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a
+								<Link
 									href="/services"
 									className="text-sm sm:text-base hover:underline"
 								>
 									Services
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a href="/faq" className="text-sm sm:text-base hover:underline">
+								<Link
+									href="/faq"
+									className="text-sm sm:text-base hover:underline"
+								>
 									FAQ
-								</a>
+								</Link>
 							</li>
 						</ul>
 					</div>
@@ -79,35 +83,35 @@ export default function Footer() {
 							Síguenos
 						</h3>
 						<div className="flex justify-center sm:justify-start space-x-6">
-							<a
+							<Link
 								href="https://x.com/zappa32"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="hover:opacity-80 transition-opacity"
 							>
 								<X className="w-6 h-6" />
-							</a>
-							<a
+							</Link>
+							<Link
 								href="https://www.github.com/Zappaware"
 								className="hover:opacity-80 transition-opacity"
 							>
 								<Github className="w-6 h-6" />
-							</a>
-							<a
+							</Link>
+							<Link
 								href="https://www.linkedin.com/in/sergio-cerv-rod"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="hover:opacity-80 transition-opacity"
 							>
 								<Linkedin className="w-6 h-6" />
-							</a>
+							</Link>
 						</div>
 					</div>
 				</div>
 
 				<div className="border-t border-white/20 mt-6 sm:mt-8 pt-6 sm:pt-8 text-center">
 					<p className="text-sm sm:text-base">
-						&copy; {new Date().getFullYear()} Simm. Todos los derechos
+						&copy; {new Date().getFullYear()} Vantes-Web. Todos los derechos
 						reservados.
 					</p>
 				</div>
