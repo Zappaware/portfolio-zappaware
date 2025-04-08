@@ -27,9 +27,8 @@ export default function Header() {
 	return (
 		<>
 			<header
-				className={`fixed w-full z-50 transition-all duration-300 ${
-					isScrolled ? "bg-neutral-800" : "bg-transparent"
-				}`}
+				className={`fixed w-full z-50 transition-all duration-300 ${isScrolled ? "bg-neutral-800" : "bg-transparent"
+					}`}
 			>
 				<div className="container mx-auto px-4">
 					<div className="flex items-center justify-between h-16">
@@ -90,7 +89,7 @@ export default function Header() {
 							</button>
 							<button
 								onClick={() => setIsModalOpen(true)}
-								className="bg-neutral-600 text-white font-bold py-1 px-3 sm:py-2 sm:px-4 rounded text-sm xl:text-base hover:bg-background hover:text-black transition-colors ml-2"
+								className="bg-neutral-600 text-white font-bold py-1 px-3 sm:py-2 sm:px-4 rounded text-sm xl:text-base hover:bg-white hover:text-black transition-colors ml-2"
 							>
 								Contact me
 							</button>
@@ -130,9 +129,8 @@ export default function Header() {
 
 				{/* Mobile Navigation */}
 				<nav
-					className={`lg:hidden absolute w-full bg-neutral-800 transition-all duration-300 ease-in-out ${
-						isMenuOpen ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
-					}`}
+					className={`lg:hidden absolute w-full bg-neutral-800 transition-all duration-300 ease-in-out ${isMenuOpen ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"
+						}`}
 				>
 					<div className="container mx-auto px-4 py-2">
 						<button
