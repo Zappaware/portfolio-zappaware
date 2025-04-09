@@ -38,8 +38,8 @@ export default function Footer() {
 						</h3>
 						<ul className="space-y-2">
 							<li>
-								<Link 
-									href="#home" 
+								<Link
+									href="#home"
 									onClick={(e) => {
 										e.preventDefault();
 										scrollToSection('home');
@@ -50,8 +50,8 @@ export default function Footer() {
 								</Link>
 							</li>
 							<li>
-								<Link 
-									href="#about" 
+								<Link
+									href="#about"
 									onClick={(e) => {
 										e.preventDefault();
 										scrollToSection('about');
@@ -62,8 +62,8 @@ export default function Footer() {
 								</Link>
 							</li>
 							<li>
-								<Link 
-									href="#blog" 
+								<Link
+									href="#blog"
 									onClick={(e) => {
 										e.preventDefault();
 										scrollToSection('blog');
@@ -74,8 +74,8 @@ export default function Footer() {
 								</Link>
 							</li>
 							<li>
-								<Link 
-									href="#portfolio" 
+								<Link
+									href="#portfolio"
 									onClick={(e) => {
 										e.preventDefault();
 										scrollToSection('portfolio');
@@ -86,8 +86,8 @@ export default function Footer() {
 								</Link>
 							</li>
 							<li>
-								<Link 
-									href="#services" 
+								<Link
+									href="#services"
 									onClick={(e) => {
 										e.preventDefault();
 										scrollToSection('services');
@@ -98,8 +98,8 @@ export default function Footer() {
 								</Link>
 							</li>
 							<li>
-								<Link 
-									href="#faq" 
+								<Link
+									href="#faq"
 									onClick={(e) => {
 										e.preventDefault();
 										scrollToSection('faq');
@@ -135,7 +135,7 @@ export default function Footer() {
 								<Github className="w-6 h-6" />
 							</Link>
 							<Link
-								href="https://www.linkedin.com/in/sergio-cervantes-rodriguez-5b3b3b3b/"
+								href="https://www.linkedin.com/in/sergio-cerv-rod/"
 								target="_blank"
 								rel="noopener noreferrer"
 								className="hover:opacity-80 transition-opacity"
